@@ -129,7 +129,7 @@ button{
     border-radius: 3px;
     cursor: pointer;
     transition: opacity 0.3s;
-    box-shadow: var(--ctc-shadow);
+    box-shadow: var(--sig-shadow);
 }
 
 button:hover{
@@ -378,11 +378,11 @@ header{
         margin-right: auto;
     }
 
-    .ctc-container{
+    .sig-container{
         flex-direction: column;
         gap: 40px;
     }
-    .ctc-right{
+    .sig-right{
         flex-direction: row;
     }
 }
@@ -435,19 +435,18 @@ header{
     .testi-a{
         width: 150px;
     }
-    .ctc{
+    .sig{
         text-align: center;
     }
-    .ctc-right{
+    .sig-right{
         flex-direction: column;
     }
-    .ctc-right .email-box{
+    .sig-right .email-box{
         width: 100%;
     }
-    .ctc-right button{
+    .sig-right button{
         width: 100%;
     }
-
     .footer-down{
         flex-direction: column;
         gap: 40px;
