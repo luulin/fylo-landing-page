@@ -18,7 +18,7 @@
     --section-buttom-margin:120px;
     --ilustation-img-size:680px;
     --card-shadow:0 0 20px hsla(0, 0%, 91%, 0.69);
-    --ctc-shadow:2px 2px 4px #3a3a3a32;
+    --sig-shadow:2px 2px 4px #3a3a3a32;
 }
 
 .container{
@@ -264,42 +264,42 @@ header{
     border-radius: 35px;
 }
 
-.ctc{
+.sig{
     background-color: var(--purple);
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.ctc-container{
+.sig-container{
     display: flex;
     justify-content: space-between;
 }
-.ctc-left{
+.sig-left{
     max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.ctc-left h2{
+.sig-left h2{
     color: #fff;
 }
-.ctc-left p{
+.sig-left p{
     color: var(--white);
 }
 
-.ctc-right{
+.sig-right{
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.ctc-right .email-box{
+.sig-right .email-box{
     width: 600px;
     transition: opacity;
-    box-shadow: var(--ctc-shadow);
+    box-shadow: var(--sig-shadow);
 }
-.ctc-right button{
-    box-shadow: var(--ctc-shadow);
+.sig-right button{
+    box-shadow: var(--sig-shadow);
     width: 200px;
 }
 
